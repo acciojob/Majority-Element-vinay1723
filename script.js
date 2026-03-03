@@ -1,5 +1,5 @@
 //your code here
-function majorityElement(arr) {
+function majorityElementChecker(arr) {
 			let count = 0;
 			let currNum;
 			for(let num of arr) {
@@ -11,4 +11,3 @@ function majorityElement(arr) {
 
 			return currNum;
 		}
-		majorityElement([2,1,2]);
